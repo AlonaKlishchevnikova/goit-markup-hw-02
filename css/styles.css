@@ -1,0 +1,192 @@
+:root{
+    --primary-text-color:#757575;
+    --secondary-text-color:#FFFFFF;
+    --hero-titel-text-color:#ffffff;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color:#ffffff;
+    --primary-grey-color: #2F303A;
+    --button-grey-color:#F5F4FA;
+}
+
+body{
+    background-color:var(--primary-white-color);
+    font-family: 'Roboto',sans-serif ;
+    color: var(--primary-text-color);
+}
+h1,
+h2,
+h3{
+    color: var(--title-text-color);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-span{
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;   
+}
+.item {
+    text-decoration: none;
+}
+.header-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.header-item:hover,
+.header-item:focus{
+color: var(--accent-color);
+}
+.active{
+    color: var(--accent-color);
+}
+.header-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.header-contact:hover,
+.header-contact:focus,
+.header-contact:active {
+color: var(--accent-color);
+}
+
+
+.hero{
+    background-color: var(--primary-grey-color);
+}
+.hero-title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--hero-titel-text-color);
+
+}
+.hero-button{
+        background-color: var(--accent-color);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        color: var(--secondary-text-color);
+}
+.benefits-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.specialty-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-player{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team-player-trade{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.portfolio-button{
+    background-color: var(--button-grey-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--title-text-color);
+}
+.portfolio-button:active,
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.portfolio-text{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.footer{
+    background-color: var(--primary-grey-color);
+}
+.logo-footer{
+    color: var(--secondary-text-color);
+}
+.address-map{
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.address-link{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
