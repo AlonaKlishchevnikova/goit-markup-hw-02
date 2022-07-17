@@ -178,15 +178,19 @@ color: var(--accent-color);
 .logo-footer{
     color: var(--secondary-text-color);
 }
-.address-map{
+address{
+    font-family: inherit;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-.address-link{
+
+.address-contect{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
